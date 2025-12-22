@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: "Inter",  sans-serif,Arial;
+}
+.my-navbar{
+    width: 100%;
+}
+.nav-top-section-1{
+width: 100%;
+background-image: linear-gradient(#003D32 40%,#036C48);
+display: flex;
+}
+
+/*=== navbar-brand-and-location-section === */
+.navbar-brand-and-location-section{
+display: flex;
+
+}
+.navbar-logo{
+padding: 8px 0  4px;
+}
+.navbar-logo img{
+width: 120px;
+height: 40px;
+margin: 1px;
+padding: 1px 8px 0 6px;
+}
+.location-icon{
+    margin: 10px 0 0 8px;
+
+}
+.location-icon i{
+color: #fff;
+font-size: 18px;
+position: relative;
+top: 5px;
+}
+.navbar-location-section{
+display: flex;
+margin-left: 6px;
+margin-right: 30px;
+}
+.Location-section-Deliver-line{
+color: #CCCCCC;
+font-size: 13px;
+margin: 0;
+
+}
+.Location-section-Country-line{
+color: #fff;
+font-weight: 700;
+font-size: 14px;
+padding-bottom: 1px;
+/* margin: 0 0 0 28px; */
+}
+.location-paragraph{
+    display: inline-block;
+    margin: 0;
+    line-height: 16px;
+    /* align-content: ; */
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.navbar-search-section{
+margin: 10px 4px 10px 3px;
+display: flex;
+/* border: 1px solid red; */
+width: 50%;
+}
+.navbar-search-section select{
+width: 250px;
+font-size: 16px;
+color: #3c3e3e;
+background-color: lightgray;
+border-radius: 6px 0 0 6px;
+padding: 8px 6px;
+outline: none;
+}
+.navbar-search-section select option{
+    background-color: white;
+    width: 18ch;
+}
+.navbar-search-section select:hover{
+    background-color:rgb(196, 196, 196) ;
+}
+.navbar-search-section select:focus{
+    border: 3px solid orange;
+}
+.navbar-search-section input{
+width: 100%;
+outline: none;
+border: transparent;
+padding: 8px 6px ;
+}
+.navbar-search-section input::placeholder{
+    font-size: 15px;
+}
