@@ -7,26 +7,36 @@ font-family: "Inter",  sans-serif,Arial;
 .my-navbar{
     width: 100%;
 }
+/* === Nav-Top-Section-1 === */
 .nav-top-section-1{
 width: 100%;
-background-image: linear-gradient(#003D32 40%,#036C48);
+/* background-image: linear-gradient(#003D32 40%,#036C48); */
+/* background-image: linear-gradient(#000 40%,#131921) */
+background-color: #131921;
+
 display: flex;
 }
 
 /*=== navbar-brand-and-location-section === */
 .navbar-brand-and-location-section{
 display: flex;
+cursor: pointer;
 
 }
 .navbar-logo{
-padding: 8px 0  4px;
+padding: 12px 0  4px;
+/* border: 1px solid transparent; */
+border-width: 1px;
+border-style: solid;
+border-color: transparent;
 }
 .navbar-logo img{
-width: 120px;
-height: 40px;
+width: 114px;
+height: 35px;
 margin: 1px;
 padding: 1px 8px 0 6px;
 }
+
 .location-icon{
     margin: 10px 0 0 8px;
 
@@ -67,16 +77,18 @@ padding-bottom: 1px;
 margin: 10px 4px 10px 3px;
 display: flex;
 /* border: 1px solid red; */
-width: 50%;
+width: 55%;
 }
 .navbar-search-section select{
 width: 250px;
 font-size: 16px;
 color: #3c3e3e;
-background-color: lightgray;
+background-color: #D4D4D4;
 border-radius: 6px 0 0 6px;
 padding: 8px 6px;
 outline: none;
+height: 41px;
+cursor: pointer;
 }
 .navbar-search-section select option{
     background-color: white;
@@ -87,13 +99,133 @@ outline: none;
 }
 .navbar-search-section select:focus{
     border: 3px solid orange;
+    margin: 0;
+    padding: 0;
 }
 .navbar-search-section input{
 width: 100%;
+/* flex-shrink: 2; */
 outline: none;
 border: transparent;
 padding: 8px 6px ;
 }
 .navbar-search-section input::placeholder{
     font-size: 15px;
+}
+.search-icon{
+    background-color: #F3A847;
+    width: 60px;
+    position: relative;
+    border-radius: 0 4px 4px 0;
+}
+.search-icon:hover{
+   background-color: #e7962b ; 
+   cursor: pointer;
+}
+.search-icon i{
+    font-size: 20px;
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    right: 6px;
+    
+}
+.navbar-search-section input:focus{
+    border: 2px solid #e7962b;
+    margin: 0;
+    padding: 0;
+}
+.nav-top-section-1-right-section{
+display: flex;
+align-items: center;
+margin-left: 24px;
+/* gap:  6px; */
+}
+.Nav-language-section{
+    display: flex;
+    align-items: center;
+    margin: 18px 0 0 0;
+    cursor: pointer;
+}
+.Nav-language-section img{
+width: 21.6px;
+}
+.Nav-language-section select{
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.Nav-language-section option{
+    color: black;
+}
+
+.Hello-Sign-in-Accounts-Lists-Section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 0 0 9px;
+    cursor: pointer;
+}
+.Hello-Sign-in-Accounts-Lists-Section span{
+font-size: 12px;
+color: #fff;
+margin-left: 6px;
+cursor: pointer;
+}
+.Hello-Sign-in-Accounts-Lists-Section select{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.Order-Returns-section{
+display: flex;
+flex-direction: column;
+padding-left: 12px;
+cursor: pointer;
+}
+.Order-Returns-section .Return-line{
+    color: #fff;
+    font-size: 12px;
+}
+.Order-Returns-section .Order-line{
+color: #fff;
+font-weight: 700;
+font-size: 14px;
+}
+.cart-section{
+display: flex;
+align-items: center;
+padding: 0 0 0 20px;
+cursor: pointer;
+/* align-items: end; */
+}
+.cart-section img{
+width: 50px;
+height: 50px;
+}
+.cart-section p{
+    color: #fff;
+    /* margin-top: 12px; */
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 18px;
+}
+
+
+/* === Nav-Section-2 === */
+.nav-section-2{
+    width: 100%;
+    background-color: #232f3e;
+    padding: 0 0 0 11px;
 }
